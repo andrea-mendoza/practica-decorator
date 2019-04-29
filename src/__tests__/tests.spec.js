@@ -1,5 +1,5 @@
 describe("Test para la clase guerrero", function () {
-    test("get speed of european parrot", function () {
+    test("", function () {
         expect(true).toBe(true);
     });
 });
