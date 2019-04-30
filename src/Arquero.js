@@ -8,6 +8,6 @@ export class Arquero{
     }
 
     modificarDaño(daño){
-        this.dañoDeFlechas = this.dañoDeFlechas + dañoDeFlechas;
+        this.dañoDeFlechas = this.dañoDeFlechas + daño;
     }
 }
