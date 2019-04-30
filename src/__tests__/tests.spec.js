@@ -1,4 +1,5 @@
 import { Guerrero } from "../Gurerrero";
+import { Madera } from "../DecoradorArma";
 
 describe("Tests", function () {
     let guerrero = new Guerrero();
@@ -18,8 +19,10 @@ describe("Tests", function () {
         expect(infanteria.dañoDeEspada).toBe(15);
     });
 
-    test("El daño de un arquero con espada de fuego debe ser ", function () {
-        expect(true).toBe(true);
+    test("El daño de un arquero con espada de fuego debe ser 20", function () {
+        let decorador = new Madera();
+        decorador.aumentarDaño(infanteria);
+        expect(infanteria.dañoDeEspada).toBe(20);
     });
 
     test("El daño de un arquero con espada de fuego y hierro debe ser ", function () {
