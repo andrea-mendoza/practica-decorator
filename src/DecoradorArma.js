@@ -12,6 +12,6 @@ export class Fuego{
 
 }
 
-export class Metal {
-    
+export class Hierro {
+
 }

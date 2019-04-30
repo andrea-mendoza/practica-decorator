@@ -1,4 +1,3 @@
-Parrot Refactoring Kata ES2015 version
 ======================================
 
 To install dependencies:
